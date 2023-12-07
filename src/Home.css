@@ -1,0 +1,311 @@
+/*Home.css*/
+
+.header {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px !important;
+}
+
+.name {
+  margin-left: 10px !important;
+  margin-top: 10px !important;
+  font-size: small;
+  font-weight: bold;
+}
+
+.date {
+  margin-left: 10px !important;
+  font-size: small;
+  font-weight: 200;
+  color: #3a3d3b;
+}
+
+.main-content {
+  justify-content: space-between;
+}
+
+.main-content .card {
+  margin-bottom: 10px; 
+  height: 50px;
+  text-align: justify;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  margin-right: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px; 
+  margin-left: 10px;
+  border-radius: 15%;
+}
+.user-info {
+  font-family: 'Arial', sans-serif; 
+}
+
+.section-heading {
+  font-size: small;
+  font-weight: bold;
+  margin-top: 5px;
+  height: 18px;
+}
+
+.logo-pic {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px;
+}
+
+.profile-pic-card {
+  width: 30px; 
+  height: 30px; 
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+.text-color-red {
+  color: red !important;
+}
+
+.thicker-text {
+  font-weight: 400;
+  color: gray !important;
+}
+
+.vertically-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; 
+}
+
+.cardtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+}
+.card-text {
+  position: relative;
+}
+
+.profile-pic-card-overlap {
+  position: absolute;
+  margin-left: -px; 
+  height: 30px;
+  width: 30px;
+  left: 94%;
+  border-radius: 50%;
+  margin-top: 1px;
+}
+
+.project-heading{
+  font-size: x-small !important;
+  font-weight:bold !important;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #000 !important;
+}
+
+.tasks,
+.projects {
+  margin-bottom: 50px;
+  height: 10px;
+  align-items:baseline;
+  justify-content: space-between;
+}
+
+.task-label,
+.project-label {
+  font-weight: bold;
+}
+
+.line {
+  border-left: 1px solid #ccc;
+  height: 50px;
+  margin: 0 10px;
+  height: 35px !important;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.leave-info {
+  display: flex;
+  align-items: center;
+}
+
+.leave-label {
+  flex: 1;
+  text-align:center ;
+  font-size: x-small !important;
+  font-weight: bold;
+}
+
+.leave-count {
+  flex: 2;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  font-size: small;
+  color: #000;
+}
+
+.leavecount{
+  color: #3a3d3b;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.lastcard{
+  height: 50px;
+}
+
+.apply-leave{
+  margin-top: auto;
+  text-align: center;
+}
+
+.leave-info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; 
+  margin-bottom: 10px;
+}
+
+.leave-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leave-label {
+  flex: 1;
+  text-align: center;
+  font-size: small;
+}
+
+.leave-count {
+  flex: 2;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  color: #000;
+}
+
+.button {
+  height: 30px;
+  text-align: center;
+}
+
+.Button{
+  background-color: rgba(255, 68, 0,0.897) !important;
+  border: none !important;
+}
+
+.project-1{
+  justify-content: center !important;
+}
+
+.settings-pic{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 1315px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.sidebar {
+  flex: 1;
+  padding: 0 5px; 
+}
+
+.project-heading,
+.leave-info,
+.cardtext,
+.leavecount {
+  font-size: smaller;
+  white-space: normal; 
+}
+
+.leave-info,
+.cardtext {
+  overflow-y: visible; 
+}
+
+.line{
+  margin-left:  0px !important;
+  margin-right: 0px !important;
+}
+
+.leave-label,
+.leave-count {
+  text-align: center;
+  font-size: x-small !important;
+}
+
+.lastcard {
+  height: auto; 
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .sidebar {
+    flex: 1;
+    padding: 0 10px; 
+  }
+  
+  .project-heading {
+    font-size: x-small !important;
+    font-weight: bold !important;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #000 !important;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  
+  .cardtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  
+  .leavecount {
+    color: #3a3d3b;
+    font-size: smaller;
+    font-weight: bold;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  
+  .lastcard {
+    height: auto; 
+  }
+
+  .line{
+  margin-left:  0px !important;
+  margin-right: 0px !important;
+}
+}
+
+
+

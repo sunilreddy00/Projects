@@ -1,0 +1,284 @@
+/* Style.css */
+.custom-navbar {
+  background: linear-gradient(to right, #FFA500, #FF1493);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.brand-name{
+  font-size: medium !important;
+  color: white !important;
+  font-weight: bold !important;
+  margin-left: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.d-flex{
+  height: 40px !important;
+  width: 180px !important;
+  opacity: 30% !important;
+  color: white !important;
+}
+
+.sIcon{ 
+  position: absolute;
+  color: darkslategrey;
+  padding-top: 8px;
+  margin-left: 150px;
+}
+
+.ml-auto {
+  display: flex;
+  align-items: center;
+}
+
+.ml-auto .nav-link {
+  margin-right: 10px;
+}
+
+.custom-navbar .navbar-brand {
+  margin-left: 20px;
+}
+
+.menu-icon {
+  color: #fff;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-left: 15px;
+  margin-bottom: 6px;
+}
+
+.ml-auto .form-inline {
+  margin-right: 5px; 
+}
+
+#language-dropdown {
+  margin-right: 5px; 
+}
+
+#language-dropdown .dropdown-item {
+  color: #fff;
+}
+
+#language-dropdown .dropdown-item:hover {
+  background-color: #495057;
+}
+
+.flagpic {
+  height: 13px;
+  width: 18px;
+  margin-right: 5px; 
+  margin-left: 10px;
+}
+
+#notifications {
+  margin-left: auto; 
+}
+
+.basic-nav-dropdown{
+  margin-right: auto;
+  width: 15px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ccc !important;
+}
+
+.dropdown-menu {
+  background-color: #333;
+}
+
+.dropdown-menu a {
+  color: black !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: #555;
+}
+
+.dropdown-menu {
+  margin-top: 5px;
+}
+
+.container-fluid {
+  background-color: #eee;
+}
+
+.logopic {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.input-group-text {
+  background-color: #fff;
+  border-radius: 18%;
+  border: none;
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  height: 12px;
+  width: 12px;
+  margin-right: 6px;
+}
+
+.admin-pic {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 2px !important;
+  margin-left: 5px !important;
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.active-dot {
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 16px;
+  border: 1px solid white;
+}
+
+.comment-badge,
+.notification-badge {
+  border-radius: 50%;
+  height: 15px !important;
+  width: 15px !important;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-bottom: 10px !important;
+  background-color: blue; 
+}
+
+.comment-badge {
+  top: 50%;
+  left: 91.6%;
+  transform: translate(-50%, -50%);
+  margin-top: -8px !important;
+}
+
+.notification-badge {
+  top: 50%;
+  left: 88.2%;
+  transform: translate(-50%, -50%);
+  margin-top: -8px !important;
+}
+
+.comment-badge {
+  background-color: blue; 
+}
+
+.notification-badge {
+  background-color: blue;
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .d-flex {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sIcon {
+    margin-left: 5px; 
+  }
+
+  .ml-auto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ml-auto .nav-link {
+    margin: 5px 0;
+  }
+
+  .admin-profile {
+    margin-right: 0;
+  }
+
+  .active-dot {
+    margin: 5px 0;
+  }
+
+  .comment-badge,
+  .notification-badge {
+    left: auto;
+    right: 5px;
+    top: 5px;
+  }
+
+  .logopic {
+    margin: 10px 0;
+  }
+
+  .flagpic {
+    margin: 5px 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    margin: 5px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .custom-navbar {
+    height: 60px; 
+  }
+
+  .brand-name {
+    font-size: 18px; 
+  }
+
+  .logopic {
+    height: 30px; 
+    width: 30px; 
+  }
+
+  .flagpic {
+    height: 20px; 
+    width: 25px; 
+    margin-left: 5px;
+  }
+
+  .admin-pic {
+    height: 30px; 
+    width: 30px; 
+  }
+
+  .comment-badge,
+  .notification-badge {
+    font-size: 12px; 
+  }
+}
+
